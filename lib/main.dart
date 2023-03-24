@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> with AutomaticKeepAliveClientMi
       Uri.parse('https://api.openai.com/v1/chat/completions'),
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer openkey',
       },
       body: jsonEncode({
         "model": "gpt-3.5-turbo",
